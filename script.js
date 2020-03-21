@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'http://sleepy-basin-24476.herokuapp.com/v1/task/';
+  var apiRoot = 'https://sleepy-basin-24476.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
